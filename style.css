@@ -1,0 +1,218 @@
+ 
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    header, footer {
+      background-color: lightgreen;
+      padding: 20px;
+      text-align: center;
+      font-weight: bold;
+    }
+
+    .main {
+      display: flex;
+      height: 400px;
+    }
+
+    .menu {
+      background-color: #bcbcbc; 
+      width: 25%;
+      padding: 20px;
+      font-weight: bold;
+    }
+
+    .menu b {
+      display: block;
+      margin-bottom: 10px;
+    }
+
+   .content {
+  padding: 20px;
+  overflow-x: auto;
+  box-sizing: border-box;
+}
+
+
+   
+.button-container{
+    display: flex;
+    justify-content: flex-end ;
+}
+
+  a.add-user-btn {
+      padding: 12px ;
+      background-color: orange;    
+      color: white;                    
+      
+      font-size: 20px;
+             
+      font-weight: bold;
+      border-radius: 6px;
+      
+    }
+
+    footer {
+      font-size: 14px;
+    }
+
+   
+    
+          .my-form {
+  max-width: 400px;
+  margin: 20px auto;
+  background: #ffffff;
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.my-form h2 {
+  text-align: center;
+  margin-bottom: 2px; 
+}
+
+.my-form label {
+  display: block;
+  margin-bottom: 2px; 
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.my-form input[type="text"],
+.my-form input[type="email"],
+.my-form input[type="password"],
+.my-form input[type="file"] {
+  width: 100%;
+  padding: 2px; 
+  margin-bottom: 8px; 
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.my-form input[type="submit"] {
+  background-color: orange;
+  color: white;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+    
+    
+    
+    .user-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.user-table th,
+.user-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.user-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.user-table img {
+  width: 100px;
+  height: auto;
+  border-radius: 4px;
+}
+
+.btn-edit, .btn-delete {
+  padding: 5px 10px;
+  margin-right: 5px;
+  text-decoration: none;
+  color: white;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.btn-edit {
+  background-color: #a4ef22; /* green */
+}
+
+.btn-delete {
+  background-color: #dc3545; /* red */
+}
+
+
+
+
+
+.edit-form {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 25px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.edit-form h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.edit-form label {
+  font-weight: 600;
+  color: #444;
+}
+
+.edit-form input[type="text"],
+.edit-form input[type="email"],
+.edit-form input[type="file"],
+.edit-form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.edit-form img {
+  display: block;
+  margin-bottom: 15px;
+  max-width: 120px;
+  border: 1px solid #ccc;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+.edit-form input[type="submit"] {
+  background-color: #007bff;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.edit-form input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+
+
+
+
+
